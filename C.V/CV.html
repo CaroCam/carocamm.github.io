@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="estilos.css">
+   
+</head>
+<body>
+    <header>
+      <div class="menu">
+        <img src="C:\Users\carol\Downloads\FB_IMG_1675087342335.jpg" alt=""> 
+        <nav> 
+            <ul>
+                <li><a id="mis-datos" >Datos personales</a></li>
+                <li><a id="mi-educacion">Educación</a></li>
+                <li><a id="mi-experiencia">Experiencia</a></li>
+                <li><a id="mis-conocimientos">Conocimientos</a></li>
+            </ul> 
+        </nav>      
+      </div>
+
+
+    </header>
+</body>
+<script>
+  const misDatos = document.getElementById('mis-datos');
+  misDatos.addEventListener('click', function() {
+    window.location.href = 'DatosPersonales.html';
+  });
+
+  const miEducacion = document.getElementById('mi-educacion');
+  miEducacion.addEventListener('click', function() {
+    window.location.href = 'Educacion.html';
+  });
+
+  const miExperiencia = document.getElementById('mi-experiencia');
+  miExperiencia.addEventListener('click', function() {
+    window.location.href = 'Experiencia.html';
+  });
+
+  const misConocimientos = document.getElementById('mis-conocimientos');
+  misConocimientos.addEventListener('click', function() {
+    window.location.href = 'Conocimientos.html';
+  });
+</script>
+</html>

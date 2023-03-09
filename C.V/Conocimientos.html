@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <header>
+      <div class="menu">
+        <img src="C:\Users\carol\Downloads\FB_IMG_1675087342335.jpg" alt=""> 
+        <nav> 
+            <ul>
+              <li><a id="mis-datos" >Datos personales</a></li>
+              <li><a id="mi-educacion">Educación</a></li>
+              <li><a id="mi-experiencia">Experiencia</a></li>
+              <li><a id="mis-conocimientos">Conocimientos</a></li>
+            </ul> 
+        </nav>      
+      </div>
+
+
+    </header>
+ <br>
+    <div class="conocimientos">      
+      <h1>Conocimientos</h1>
+      <br><br>
+                <p>
+                  <b><label for="conocimiento1" class="colocar_conocimiento1">Idiomas:</label></b>
+                   <p>Inglés básico</p>
+                </p>
+              <br>
+                <p>
+                  <b><label for="conocimiento2" class="colocar_conocimiento2">Software:</label></b>
+                  <p>Word, Excel, PowerPoint, Octave, Geogebra, JavaScript (básico), Rubi (básico),
+                    Zoom,Latex, Google meet, Moodle.</p>           
+                </p>
+                <br>
+                <p>
+                  <b><label for="conocimiento3" class="colocar_conocimiento3">Cursos y Congresos:</label></b>
+                  <p>2019: Segundo encuentro conjunto de la Unión Matemática Argentina y la Sociedad
+                    Matemática de Chile.(SUMA)-Organizador.
+                    <br>
+                    2020: Curso de programación (primera etapa), Argentina programa.
+                    <br>
+                    2022: Encuentro anual de la Unión Matemática Argentina. (UMA)
+                  </p>         
+                </p>   
+                
+        
+  </div>
+</body>
+<script>
+  const misDatos = document.getElementById('mis-datos');
+  misDatos.addEventListener('click', function() {
+    window.location.href = 'DatosPersonales.html';
+  });
+
+  const miEducacion = document.getElementById('mi-educacion');
+  miEducacion.addEventListener('click', function() {
+    window.location.href = 'Educacion.html';
+  });
+
+  const miExperiencia = document.getElementById('mi-experiencia');
+  miExperiencia.addEventListener('click', function() {
+    window.location.href = 'Experiencia.html';
+  });
+
+  const misConocimientos = document.getElementById('mis-conocimientos');
+  misConocimientos.addEventListener('click', function() {
+    window.location.href = 'Conocimientos.html';
+  });
+</script>
+</html>
